@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DC72A22C24633E9900EFE979 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A22B24633E9900EFE979 /* main.swift */; };
+		DC72A2332463404300EFE979 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A2322463404300EFE979 /* Models.swift */; };
+		DC72A2352464000A00EFE979 /* DateFormattingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A2342464000A00EFE979 /* DateFormattingHelpers.swift */; };
+		DC72A237246404FF00EFE979 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A236246404FF00EFE979 /* Renderer.swift */; };
+		DC72A2392464061100EFE979 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A2382464061100EFE979 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DC72A22824633E9900EFE979 /* jsonparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonparser; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC72A22B24633E9900EFE979 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DC72A2322463404300EFE979 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DC72A2342464000A00EFE979 /* DateFormattingHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingHelpers.swift; sourceTree = "<group>"; };
+		DC72A236246404FF00EFE979 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		DC72A2382464061100EFE979 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				DC72A22B24633E9900EFE979 /* main.swift */,
+				DC72A2322463404300EFE979 /* Models.swift */,
+				DC72A2382464061100EFE979 /* Parser.swift */,
+				DC72A236246404FF00EFE979 /* Renderer.swift */,
+				DC72A2342464000A00EFE979 /* DateFormattingHelpers.swift */,
 			);
 			path = jsonparser;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC72A237246404FF00EFE979 /* Renderer.swift in Sources */,
+				DC72A2352464000A00EFE979 /* DateFormattingHelpers.swift in Sources */,
+				DC72A2392464061100EFE979 /* Parser.swift in Sources */,
+				DC72A2332463404300EFE979 /* Models.swift in Sources */,
 				DC72A22C24633E9900EFE979 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
